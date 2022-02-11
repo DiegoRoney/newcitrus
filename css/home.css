@@ -338,11 +338,31 @@ footer.fixar-rodape{
     margin: auto;   
     
 }
-.ec-secundario h1{
+
+.ec-secundario h1, ec-secundario h2{
     font-family: 'Dancing Script', cursive;
     color: #E2E8F0;
     font-size: 70px;
 }
+
+/* MENU SECUNDARIO */
+#menu-secundario ul {
+	padding:0px;
+	margin:0px;	
+	list-style:none;
+}
+
+#menu-secundario ul li { display: inline; }
+
+#menu-secundario ul li a {
+	padding: 2px 10px;
+	display: inline-block;    
+	text-decoration: none;
+    font-family: 'Dancing Script', cursive;	
+    color: #E2E8F0;
+    font-size: 25px;
+}
+
 @media screen and (max-width: 770px) {
     .ec-pricipal{
         width: 100%;
@@ -401,7 +421,7 @@ footer.fixar-rodape{
     margin: 10px;
     padding: 10px;
     text-align: left;
-    
+    font-size: 15px;
     color: #0D0D0D;
     border-radius: 10px;   
     flex: 1 1 1px;
@@ -421,7 +441,7 @@ footer.fixar-rodape{
 }
 /**/
 .produtos img{   
-    height: 250px;
+    height: 280px;
 }
 
 
@@ -484,12 +504,11 @@ footer.fixar-rodape{
     flex-wrap: wrap;
     gap: 15px;
     justify-content: space-around;
+    font-size: 18px;
     
 }
 .ad a{
-    text-decoration: none;
-    
-    
+    text-decoration: none; 
     
 }
 

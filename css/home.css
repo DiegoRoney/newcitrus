@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 
 
+/*
+font-family: 'Dancing Script', cursive;
+*/
 /*CORES*/
 
 /* Color Theme Swatches in Hex */
@@ -192,6 +196,7 @@ a {
     gap: 30px;
     
     
+    
 }
 .jumbotron {
     background-color: #CCF244; 
@@ -209,7 +214,7 @@ a {
     padding: 1px;
     color: #ffffff;   
     text-align: center;
-    font-family: 'Signika', sans-serif;
+    font-family: 'Dancing Script', cursive;
     font-weight: 400;
     text-shadow: 4px 4px rgba(0, 0, 0, 0.432);
 }
@@ -228,7 +233,7 @@ a {
 }
 @media only screen and (min-width: 928px) {
     .header-texto h1 {
-      font-size: 150px;
+      font-size: 200px;
     }
     .header-texto h2{
         font-size: 60px;
@@ -299,6 +304,7 @@ footer.fixar-rodape{
 /*footer*/
 
 /*ENCOMENDAS*/
+
 .info-encomendas{
    color: #0D0D0D;
     background-color: #818C2B;
@@ -329,9 +335,13 @@ footer.fixar-rodape{
     
     font-size: 30px;
     padding: 10px;
-    margin: auto;
+    margin: auto;   
     
-    
+}
+.ec-secundario h1{
+    font-family: 'Dancing Script', cursive;
+    color: #E2E8F0;
+    font-size: 70px;
 }
 @media screen and (max-width: 770px) {
     .ec-pricipal{
@@ -415,14 +425,15 @@ footer.fixar-rodape{
 }
 
 
-.header-section-produtos{
+.banner{
+    background-size: cover;  
     width: 100%;
-    height: 30vh;
-    background: url(../img/bg.jpg) no-repeat center;
+    height: 30vh;   
     display: flex;    
     justify-content: space-around;
     align-items: center;
     align-content: center;
+     
    
 }
 .header-texto-produtos{     
@@ -433,4 +444,82 @@ footer.fixar-rodape{
     text-shadow: 3px 3px rgba(0, 0, 0, 0.432);
 }
 
+.banner-citricos{
+    background: url(../img/produtos/citricus.jpg) no-repeat center;
+    background-size: cover; 
+}
+
+.banner-laticinios{
+    background: url(../img/produtos/laticinios.jpg) no-repeat center;
+    background-size: cover; 
+}
+
+.banner-sazonais{
+    background: url(../img/produtos/sazonais.jpg) no-repeat center;
+    background-size: cover; 
+}
+
 /*produtos*/
+
+/*ad*/
+.ad-titulo{
+    height: 180px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: 'Dancing Script', cursive;
+    
+    
+}
+.ad-titulo h1{
+    color: rgb(51, 95, 0);
+    text-align: center;
+    font-size: 80px;
+}
+.ad{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+    
+}
+.ad a{
+    text-decoration: none;
+    
+    
+    
+}
+
+
+.citricos{
+    background: url("../img/produtos/citricus\ -\ Copia.jpg") center;
+    color: #52591D;
+}
+.laticinios{
+    background: url("../img/produtos/laticinios\ -\ Copia.jpg");
+    color: #52591D;
+}
+.sazonais{
+    background: url("../img/produtos/sazonais\ -\ Copia.jpg") left;
+    color: #dfdfdf;
+
+}
+
+.sujestao{  
+    background-size: cover;    
+    flex: 1 1 300px;    
+    height: 250px;
+    padding: 20px;
+    box-shadow:  0 0 0 10 greenyellow;
+    
+    
+}
+
+.sujestao:hover{
+    box-shadow: 0 0 20px rgba(43, 145, 2, 0.733);
+    
+}
+/*ad*/

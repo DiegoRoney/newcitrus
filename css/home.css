@@ -442,6 +442,7 @@ footer.fixar-rodape{
 /**/
 .produtos img{   
     height: 280px;
+object-fit: cover;
 }
 
 

@@ -173,9 +173,7 @@ a {
          top: 0; 
          width: 100%;
     }
-    footer{
-       margin-top: -40px;
-    }
+    
 }
 /* NAVBAR*/
 
@@ -280,14 +278,13 @@ footer {
     height: 40px;    
 
 }
-
-footer.fixar-rodape{    
-    bottom: 0;
-    left: 0;
-    height: 40px;
+.fixar{
     position: fixed;
-    width: 100%;
-  }
+    bottom: 0;
+   
+}
+
+
 
 .footer-link {
     z-index: 500;
@@ -442,7 +439,7 @@ footer.fixar-rodape{
 /**/
 .produtos img{   
     
-    Width: 270px;
+    Width: 350px;
 }
 
 
@@ -533,13 +530,12 @@ footer.fixar-rodape{
     flex: 1 1 300px;    
     height: 250px;
     padding: 20px;
-    box-shadow:  0 0 0 10 greenyellow;
-    
     
 }
 
 .sujestao:hover{
-    box-shadow: 0 0 20px rgba(43, 145, 2, 0.733);
+    box-shadow: 0 0 40px rgba(43, 145, 2, 0.733);
+    
     
 }
 /*ad*/

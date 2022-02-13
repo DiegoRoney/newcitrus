@@ -100,10 +100,10 @@ a {
     color: #EDF250;
 }
 .nav-link:active {
-    color: #003f1f;
+    color: #ff8e0d;
 }
 .nav-link:visited {
-    color: #003f1f;
+    color: #ff8e0d;
 }
 
 
@@ -256,15 +256,15 @@ a {
    
 }
 .info{
-    padding: 25px;    
+    padding: 15px;    
     color: #52591D; 
     margin: 15px;
     text-align: center;
-    }
+}
 
-    .info img{
+.info img{
         width: 250px;
-    }
+}
 /*footer*/
 footer {
     font-family: 'Signika', sans-serif;
@@ -309,30 +309,32 @@ footer {
     display: flex;
     flex-wrap: wrap;
     width: 100%;    
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
-    text-align: left;
+    gap: 1px;
+    text-align: left;    
    
 }
+
 .ec-pricipal{
-    width: 300px;       
+    width: 400px;       
     padding: 10px;
-    margin:  0px;
-    
-    
+    margin:  0px; 
+   
 }
+
 .ec-pricipal img{
     width: 800px;
+    float: center;
+   
 }
 
 .ec-secundario{
-    width: 800px;
-    height: fit-content;
-    
+    width: 9000px;
+    height: fit-content;   
     font-size: 30px;
-    padding: 10px;
-    margin: auto;   
+    padding: 25px;  
+   
     
 }
 
@@ -375,7 +377,7 @@ footer {
 	text-decoration: none;
     font-family: 'Dancing Script', cursive;	
     color: rgb(255, 115, 0);
-    font-size: 25px;
+    font-size: 25px;    
 }
 /* MENU SECUNDARIO dark*/
 

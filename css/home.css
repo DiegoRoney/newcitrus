@@ -342,7 +342,7 @@ footer {
     font-size: 70px;
 }
 
-/* MENU SECUNDARIO */
+/* MENU SECUNDARIO light*/
 #menu-secundario ul {
 	padding:0px;
 	margin:0px;	
@@ -359,6 +359,25 @@ footer {
     color: #E2E8F0;
     font-size: 25px;
 }
+/* MENU SECUNDARIO light*/
+/* MENU SECUNDARIO dark*/
+#menu-secundario-dark ul {
+	padding:0px;
+	margin:0px;	
+	list-style:none;
+}
+
+#menu-secundario-dark ul li { display: inline; }
+
+#menu-secundario-dark ul li a {
+	padding: 2px 10px;
+	display: inline-block;    
+	text-decoration: none;
+    font-family: 'Dancing Script', cursive;	
+    color: rgb(255, 115, 0);
+    font-size: 25px;
+}
+/* MENU SECUNDARIO dark*/
 
 @media screen and (max-width: 770px) {
     .ec-pricipal{
@@ -513,16 +532,24 @@ footer {
 
 .citricos{
     background: url("../img/produtos/citricus\ -\ Copia.jpg") center;
+    
+}
+.citricos a{
     color: #52591D;
 }
 .laticinios{
     background: url("../img/produtos/laticinios\ -\ Copia.jpg");
+    
+}
+.laticinios a{
     color: #52591D;
 }
 .sazonais{
     background: url("../img/produtos/sazonais\ -\ Copia.jpg") left;
+    
+}
+.sazonais a{
     color: #dfdfdf;
-
 }
 
 .sujestao{  

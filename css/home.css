@@ -14,14 +14,6 @@ font-family: 'Dancing Script', cursive;
 .UI/UX-4-hex { color: #EDF250; }
 .UI/UX-5-hex { color: #0D0D0D; }
 
-/* Color Theme Swatches in RGBA */
-.UI/UX-1-rgba { color: rgba(204, 242, 67, 1); }
-.UI/UX-2-rgba { color: rgba(128, 140, 43, 1); }
-.UI/UX-3-rgba { color: rgba(82, 89, 29, 1); }
-.UI/UX-4-rgba { color: rgba(236, 242, 79, 1); }
-.UI/UX-5-rgba { color: rgba(12, 12, 12, 1); }
-
-
 
 /**/
 
@@ -29,6 +21,7 @@ font-family: 'Dancing Script', cursive;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 html {
@@ -41,9 +34,10 @@ li {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;;
     
 }
+
 
 /* NAVBAR*/
 .header{
@@ -192,9 +186,8 @@ a {
     justify-content: space-around;
     align-content: center;
     align-items: center;
-    gap: 30px;
-    
-    
+    gap: 30px; 
+   
     
 }
 .jumbotron {

@@ -210,6 +210,7 @@ a {
     font-weight: 400;
     text-shadow: 4px 4px rgba(0, 0, 0, 0.432);
 }
+
 @media only screen and (max-width: 770px) {
     .header-texto h1 {
       font-size: 120px;
@@ -230,7 +231,7 @@ a {
     .header-texto h2{
         font-size: 60px;
     }
-    .info{
+    .info{       
         padding: 25px; 
         font-size: 25px;
     }
